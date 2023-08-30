@@ -34,3 +34,4 @@ jobs:
           platforms: linux/arm64
           push: true
           tags: mixiaochao/fluxappdemo:${{ steps.genhash.outputs.hash }}
+          
